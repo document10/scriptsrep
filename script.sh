@@ -1,4 +1,4 @@
-echo Note this only works on debian based dirtros.
+echo Note this only works on debian or debian based dirtros.
 echo --Bluetooth not avaible on wake problem--
 echo Current bluez version
 echo Updating dependencies...
