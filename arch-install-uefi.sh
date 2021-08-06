@@ -47,3 +47,4 @@ cat /etc/sysctl.d/99.sysctl.conf
 echo "Final configuration"
 mkinitcpio -P
 free -m
+echo "Installation complete."
