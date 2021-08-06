@@ -10,7 +10,7 @@ echo "127.0.1.1 archmc.localdomain archmc" >> /etc/hosts
 echo "Root password:"
 passwd
 echo "Installing base packages"
-pacman -S curl git nano grub efibootmgr networkmanager network-manager-applet reflector base-devel linux-headers iptables-nft ipset os-prober ntfs-3g terminus-font openssh
+pacman -S curl git nano grub efibootmgr networkmanager network-manager-applet reflector base-devel linux-headers ipset os-prober ntfs-3g terminus-font openssh
 
 #gpu drivers
 # pacman -S  xf86-video-amdgpu
