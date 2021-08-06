@@ -7,6 +7,7 @@ echo "archmc" >> /etc/hostname
 echo "127.0.0.1 localhost" >> /etc/hosts
 echo "::1       localhost" >> /etc/hosts
 echo "127.0.1.1 archmc.localdomain archmc" >> /etc/hosts
+ech0 "Root password:"
 passwd
 # You can remove the tlp package if you are installing on a desktop or vm
 
@@ -26,6 +27,7 @@ systemctl enable sshd
 systemctl enable tlp # You can comment this command out if you didn't install tlp, see above
 #creating a user
 useradd -m doc10
+echo "Password for doc10:"
 passwd doc10
 echo "doc10 ALL=(ALL) ALL" >> /etc/sudoers.d/doc10
 
