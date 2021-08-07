@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "Installing git(just in case ;)"
-sudo pacman -S git
+echo "Installing required dependencies(just in case ;)"
+sudo pacman -S git base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
