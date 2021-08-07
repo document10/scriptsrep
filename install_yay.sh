@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Installing git(just in case ;)"
 sudo pacman -S git
 git clone https://aur.archlinux.org/yay.git
