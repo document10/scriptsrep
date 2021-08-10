@@ -11,7 +11,7 @@ cat /etc/hosts
 echo "Root password:"
 passwd
 echo "Installing base packages"
-pacman -S git nano grub efibootmgr networkmanager network-manager-applet reflector base-devel linux-headers ipset os-prober ntfs-3g terminus-font openssh
+pacman -S linux-firmware git neofetch nano grub efibootmgr networkmanager network-manager-applet reflector base-devel linux-headers ipset os-prober ntfs-3g terminus-font openssh
 
 #gpu drivers
 # pacman -S  xf86-video-amdgpu
@@ -29,6 +29,7 @@ useradd -m doc10
 echo "Password for doc10:"
 passwd doc10
 echo "doc10 ALL=(ALL) ALL" >> /etc/sudoers.d/doc10
+echo "doc10 now has sudo privilleges."
 
 echo "Final configuration"
 mkinitcpio -P
