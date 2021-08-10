@@ -31,3 +31,4 @@ sudo echo "Icon=dwm" >> /usr/share/xsessions/dwm.desktop
 sudo echo "Type=XSession" >> /usr/share/xsessions/dwm.desktop
 echo "nitrogen --restore &" >> .xprofile
 echo "picom -f &" >>.xprofile
+sudo systemctl enable lightdm
