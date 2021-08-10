@@ -1,26 +1,29 @@
 #!/bin/bash
+cd
 git clone https://git.suckless.org/dwm/
 git clone https://git.suckless.org/dwmstatus
 git clone https://git.suckless.org/st
 git clone https://git.suckless.org/surf
+git clone https://git.suckless.org/dmenu
 pacman -Syu
 pacman -S xorg xorg-server xterm firefox nitrogen picom lightdm  lightdm-gtk-greeter  lightdm-gtk-greeter-settings archlinux-wallpaper
 cd dwm
 make
 make install
 cd 
-cd ScriptsRep
 cd dwmstatus
 make
 make install
 cd
-cd ScriptsRep
 cd st
 make
 make install
 cd
-cd ScriptsRep
 cd surf
+make
+make install
+cd
+cd dmenu
 make
 make install
 cd
