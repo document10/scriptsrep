@@ -6,7 +6,7 @@ git clone https://git.suckless.org/st
 git clone https://git.suckless.org/surf
 git clone https://git.suckless.org/dmenu
 pacman -Syu
-pacman -S xorg xorg-server xterm firefox nitrogen picom lightdm  lightdm-gtk-greeter  lightdm-gtk-greeter-settings archlinux-wallpaper arc-icon-theme arc-solid-gtk-theme arc-gtk-theme lxappearance
+pacman -S xorg xorg-server xterm firefox nitrogen picom lightdm  lightdm-gtk-greeter  lightdm-gtk-greeter-settings archlinux-wallpaper arc-icon-theme arc-solid-gtk-theme arc-gtk-theme lxappearance pcmanfm
 cd dwm
 make
 make install
