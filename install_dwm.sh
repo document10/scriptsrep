@@ -8,15 +8,18 @@ sudo pacman -S xorg xorg-server xterm firefox nitrogen picom lightdm  lightdm-gt
 cd dwm
 make
 sudo make install
-cd
+cd 
+cd ScriptsRep
 cd dwmstatus
 make
 sudo make install
 cd
+cd ScriptsRep
 cd st
 make
 sudo make install
 cd
+cd ScriptsRep
 cd surf
 make
 sudo make install
