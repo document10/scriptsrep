@@ -16,3 +16,4 @@ echo "vm.vfs_cache_pressure = 50" >> /etc/sysctl.d/99.sysctl.conf
 echo "vm.swappiness = 5" >> /etc/sysctl.d/99.sysctl.conf
 echo "Swapfile settings"
 cat /etc/sysctl.d/99.sysctl.conf
+free -m
