@@ -24,7 +24,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 echo "Configuring base services"
 systemctl enable NetworkManager
 systemctl enable sshd
-ceho "Creating a new user"
+echo "Creating a new user"
 useradd -m doc10
 echo "Password for doc10:"
 passwd doc10
