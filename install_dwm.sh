@@ -1,4 +1,5 @@
 #!/bin/bash
+#MUST RUN AS ROOT
 cd
 git clone https://git.suckless.org/dwm/
 git clone https://git.suckless.org/dwmstatus
