@@ -22,7 +22,7 @@ cd
 cd ScriptsRep
 cd surf
 make
-sudo make install
+make install
 cd
 mkdir -p /usr/share/xsessions
 echo "[Desktop Entry]" >> /usr/share/xsessions/dwm.desktop
