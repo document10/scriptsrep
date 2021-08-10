@@ -7,19 +7,19 @@ sudo pacman -Syu
 sudo pacman -S xorg xorg-server xterm firefox nitrogen picom lightdm  lightdm-gtk-greeter  lightdm-gtk-greeter-settings archlinux-wallpaper
 cd dwm
 make
-sudo make clean install
+sudo make install
 cd
 cd dwmstatus
 make
-sudo make clean install
+sudo make install
 cd
 cd st
 make
-sudo make clean install
+sudo make install
 cd
 cd surf
 make
-sudo make clean install
+sudo make install
 cd
 sudo mkdir -p /usr/share/xsessions
 sudo echo "[Desktop Entry]" >> /usr/share/xsessions/dwm.desktop
