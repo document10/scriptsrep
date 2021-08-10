@@ -33,5 +33,4 @@ echo "doc10 now has sudo privilleges."
 
 echo "Final configuration"
 mkinitcpio -P
-free -m
 echo "Installation complete."
