@@ -6,7 +6,7 @@ git clone https://git.suckless.org/dwmstatus
 git clone https://git.suckless.org/st
 git clone https://git.suckless.org/dmenu
 pacman -Syu
-pacman -S xorg xorg-server xterm firefox nitrogen picom lightdm  lightdm-gtk-greeter  lightdm-gtk-greeter-settings archlinux-wallpaper arc-icon-theme arc-solid-gtk-theme arc-gtk-theme lxappearance pcmanfm polikt-gnome
+pacman -S xorg xorg-server xterm firefox nitrogen picom lightdm  lightdm-gtk-greeter  lightdm-gtk-greeter-settings archlinux-wallpaper arc-icon-theme arc-solid-gtk-theme arc-gtk-theme lxappearance pcmanfm polikt-gnome avahi xdg-user-dirs xdg-utils gedit bluez bluez-utils alsa-utils pipewire pipewire-alsa pipewire-pulse pipewire-jack sof-firmware
 cd dwm
 make
 make install
