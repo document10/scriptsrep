@@ -35,3 +35,4 @@ echo "Type=XSession" >> /usr/share/xsessions/dwm.desktop
 echo "nitrogen --restore &" >> /home/doc10/.xprofile
 echo "picom -f &" >>/home/doc10/.xprofile
 systemctl enable lightdm
+systemctl enable bluetooth
