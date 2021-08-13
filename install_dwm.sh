@@ -36,6 +36,6 @@ echo "Comment=Dynamyc window manager" >> /usr/share/xsessions/dwm.desktop
 echo "Exec=dwm" >> /usr/share/xsessions/dwm.desktop
 echo "Icon=dwm" >> /usr/share/xsessions/dwm.desktop
 echo "Type=XSession" >> /usr/share/xsessions/dwm.desktop
-echo "nitrogen --restore &" >> .xprofile
-echo "picom -f &" >>.xprofile
+echo "nitrogen --restore &" >> /home/doc10/.xprofile
+echo "picom -f &" >>/home/doc10/.xprofile
 systemctl enable lightdm
