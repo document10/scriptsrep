@@ -18,8 +18,8 @@ pacman -S linux-firmware git neofetch nano grub efibootmgr networkmanager networ
 # pacman -S  xf86-video-amdgpu
 # pacman -S  nvidia nvidia-utils nvidia-settings
 
-#uefi
 echo "Configuring grub bootloader"
+#uefi
 #grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
 #grub-mkconfig -o /boot/grub/grub.cfg
 
