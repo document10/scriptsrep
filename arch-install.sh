@@ -2,7 +2,6 @@
 
 hwclock --systohc
 locale-gen
-timedatectl set-timezone Europe/Bucharest
 echo "Configuring network"
 echo "archmc" >> /etc/hostname
 echo "127.0.0.1 localhost" >> /etc/hosts
