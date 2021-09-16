@@ -19,12 +19,12 @@ pacman -S linux-firmware git neofetch nano grub efibootmgr networkmanager networ
 
 echo "Configuring grub bootloader"
 #uefi
-#grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
-#grub-mkconfig -o /boot/grub/grub.cfg
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+grub-mkconfig -o /boot/grub/grub.cfg
 
 #bios
-grub-install --target=i386-pc /dev/sda # replace sda with your disk name, not the partition
-grub-mkconfig -o /boot/grub/grub.cfg
+#grub-install --target=i386-pc /dev/sda # replace sda with your disk name, not the partition
+#grub-mkconfig -o /boot/grub/grub.cfg
 
 
 echo "Configuring base services"
