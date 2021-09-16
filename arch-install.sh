@@ -1,5 +1,4 @@
 #!/bin/bash
-
 hwclock --systohc
 locale-gen
 echo "Configuring network"
