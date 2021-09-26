@@ -1,6 +1,9 @@
 #!/bin/bash
+ln -sf /usr/share/zoneinfo/Europe/Bucharest /etc/localtime
 hwclock --systohc
 locale-gen
+echo "LANG=en_US.UTF-8" >> /etc/locale.conf
+echo "KEYMAP=us" >> /etc/vconsole.conf
 echo "Configuring network"
 echo "archmc" >> /etc/hostname
 echo "127.0.0.1 localhost" >> /etc/hosts
