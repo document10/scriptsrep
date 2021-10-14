@@ -13,7 +13,7 @@ cat /etc/hosts
 echo "Root password:"
 passwd
 echo "Installing base packages"
-pacman -S --noconfirm linux-firmware git neofetch nano grub efibootmgr networkmanager network-manager-applet reflector base-devel linux-headers ipset os-prober ntfs-3g terminus-font openssh bash-completion dnsutils ufw
+pacman -S --noconfirm linux-firmware git neofetch nano grub efibootmgr networkmanager network-manager-applet reflector base-devel linux-headers ipset os-prober ntfs-3g terminus-font openssh bash-completion dnsutils ufw iptables
 
 #gpu drivers
 # pacman -S  xf86-video-amdgpu
@@ -32,6 +32,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 echo "Configuring base services"
 systemctl enable NetworkManager
 systemctl enable sshd
+systemctl enable iptables
 systemctl enable ufw
 ufw allow ssh
 echo "Creating a new user"
