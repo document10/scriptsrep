@@ -6,7 +6,7 @@ git clone https://git.suckless.org/dwmstatus
 git clone https://git.suckless.org/st
 git clone https://git.suckless.org/dmenu
 pacman -Syu
-pacman -S xorg xorg-server xterm firefox nitrogen picom lightdm  lightdm-gtk-greeter lightdm-gtk-greeter-settings archlinux-wallpaper pcmanfm avahi xdg-user-dirs xdg-utils gedit bluez bluez-utils alsa-utils pipewire pipewire-alsa pipewire-pulse pipewire-jack sof-firmware blueman
+pacman -S xorg xorg-server xterm firefox nitrogen picom lightdm  lightdm-gtk-greeter lightdm-gtk-greeter-settings archlinux-wallpaper pcmanfm avahi xdg-user-dirs xdg-utils gedit bluez bluez-utils alsa-utils pipewire pipewire-alsa pipewire-pulse pipewire-jack sof-firmware blueman arc-solid-gtk-theme arc-gtk-theme arc-icon-theme
 #gpu drivers,COMMENT THE ONES YOU DON'T NEED
 pacman -S  xf86-video-amdgpu
 pacman -S  nvidia nvidia-utils nvidia-settings
