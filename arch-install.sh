@@ -30,11 +30,11 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 echo "Configuring base services"
-systemctl enable NetworkManager
-systemctl enable sshd
-systemctl enable iptables
-systemctl enable ip6tables
-systemctl enable ufw
+systemctl enable --now NetworkManager
+systemctl enable --now sshd
+systemctl enable --now iptables
+systemctl enable --now ip6tables
+systemctl enable --now ufw
 ufw enable
 ufw allow ssh
 echo "Creating a new user"
