@@ -33,7 +33,9 @@ echo "Configuring base services"
 systemctl enable NetworkManager
 systemctl enable sshd
 systemctl enable iptables
+systemctl enable ip6tables
 systemctl enable ufw
+ufw enable
 ufw allow ssh
 echo "Creating a new user"
 useradd -m doc10
