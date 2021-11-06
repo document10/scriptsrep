@@ -1,7 +1,8 @@
 freebsd-update fetch
 freebsd-update install
-pkg install sudo nano git bash
+pkg install sudo nano git bash neofetch
 sysrc dbus_enable=YES
 sysrc hald_enable=YES
 sysrc sound_load=YES
 sysrc snd_hda_load=YES
+sysrc moused_enable=YES
