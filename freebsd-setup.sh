@@ -1,6 +1,7 @@
 cp /usr/share/zoneinfo/Europe/Bucharest /etc/localtime
 freebsd-update fetch
 freebsd-update install
+pkg update && pkg upgrade
 pkg install sudo nano git bash neofetch
 sysrc dbus_enable=YES
 sysrc hald_enable=YES
