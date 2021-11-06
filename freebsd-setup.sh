@@ -1,3 +1,4 @@
+#MUST RUN AS ROOT
 cp /usr/share/zoneinfo/Europe/Bucharest /etc/localtime
 freebsd-update fetch
 freebsd-update install
