@@ -10,4 +10,5 @@ sysrc hald_enable=YES
 sysrc sound_load=YES
 sysrc snd_hda_load=YES
 sysrc moused_enable=YES
+sysrc snd_driver=YES
 echo "proc /proc procfs rw 0 0">>/etc/fstab
