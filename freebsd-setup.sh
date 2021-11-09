@@ -1,5 +1,10 @@
 #MUST RUN AS ROOT
 cp /usr/share/zoneinfo/Europe/Bucharest /etc/localtime
+pw groupmod operator -m dxvk
+pw groupmod network -m dxvk
+pw groupmod wheel -m dxvk
+pw groupmod video -m dxvk
+pw groupmod sshd -m dxvk
 freebsd-update fetch
 freebsd-update install
 pkg bootstrap
