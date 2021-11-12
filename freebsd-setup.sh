@@ -9,7 +9,7 @@ freebsd-update fetch
 freebsd-update install
 pkg bootstrap
 pkg update && pkg upgrade
-pkg install -y sudo nano git bash neofetch base gcc micro gvfs unzip gzip lzip
+pkg install -y sudo nano git bash neofetch base gcc micro gvfs unzip gzip lzip exa
 sysrc dbus_enable=YES
 sysrc hald_enable=YES
 sysrc sound_load=YES
