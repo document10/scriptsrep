@@ -1,4 +1,4 @@
-<keybind key="A-d">
+<keybind key="A-p">
     <action name="Execute">
         <name>dmenu</name>
         <command>dmenu_run</command>
