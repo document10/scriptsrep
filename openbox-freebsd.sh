@@ -5,7 +5,7 @@ echo "mmaker openbox -f -t xfterm &" >> /home/dxvk/.xprofile
 echo "openbox --reconfigure &" >> /home/dxvk/.xprofile
 echo "compton -f &" >> /home/dxvk/.xprofile
 echo "tint2 &" >> /home/dxvk/.xprofile
-echo "pcmanfm -d --desktop" >> /home/dxvk/.xprofile
-echo "volumeicon" >> /home/dxvk/.xprofile
+echo "pcmanfm -d --desktop &" >> /home/dxvk/.xprofile
+echo "volumeicon &" >> /home/dxvk/.xprofile
 sysrc compton_enable="YES"
 sysrc webcamd_enable="YES"
