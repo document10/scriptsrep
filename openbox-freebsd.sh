@@ -1,4 +1,4 @@
-pkg install -y xf86-input-evdev xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings pcmanfm compton xdg-user-dirs xdg-utils mousepad gnome-backgrounds oss polkit polkit-gnome gtk-arc-themes openbox obconf tint2 menumaker clearlooks dmenu volumeicon xfce4-terminal
+pkg install -y xf86-input-evdev xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings pcmanfm compton xdg-user-dirs xdg-utils mousepad gnome-backgrounds oss polkit polkit-gnome gtk-arc-themes openbox obconf tint2 menumaker clearlooks dmenu volumeicon xfce4-terminal lxappearance
 mmaker openbox -f -t xfterm
 sysrc lightdm_enable=YES
 echo "mmaker openbox -f -t xfterm &" >> /home/dxvk/.xprofile
