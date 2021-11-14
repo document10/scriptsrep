@@ -1,0 +1,6 @@
+<keybind key="A-d">
+    <action name="Execute">
+        <name>dmenu</name>
+        <command>dmenu_run</command>
+    </action>
+</keybind>
