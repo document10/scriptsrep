@@ -43,7 +43,7 @@ echo "Password for doc10:"
 passwd doc10
 echo "doc10 ALL=(ALL) ALL" >> /etc/sudoers.d/doc10
 echo "doc10 now has sudo privilleges."
-
+usermod -aG wheel,audio,video,optical,storage doc10
 echo "Final configuration"
 mkinitcpio -P
 echo "Installation complete."
