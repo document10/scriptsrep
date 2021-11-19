@@ -8,9 +8,9 @@ pacman -S  nvidia nvidia-utils nvidia-settings
 pacman -S virtualbox-guest-utils
 systemctl enable lightdm
 systemctl enable bluetooth
-echo "mmaker openbox -f -t xfterm &" >> /home/dxvk/.xprofile
-echo "openbox --reconfigure &" >> /home/dxvk/.xprofile
-echo "compton -f &" >> /home/dxvk/.xprofile
-echo "tint2 &" >> /home/dxvk/.xprofile
-echo "pcmanfm -d --desktop &" >> /home/dxvk/.xprofile
-echo "volumeicon &" >> /home/dxvk/.xprofile
+echo "mmaker openbox -f -t xfterm &" >> /home/doc10/.xprofile
+echo "openbox --reconfigure &" >> /home/doc10/.xprofile
+echo "compton -f &" >> /home/doc10/.xprofile
+echo "tint2 &" >> /home/doc10/.xprofile
+echo "pcmanfm -d --desktop &" >> /home/doc10/.xprofile
+echo "volumeicon &" >> /home/doc10/.xprofile
