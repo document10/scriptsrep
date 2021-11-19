@@ -13,7 +13,7 @@ cat /etc/hosts
 echo "Root password:"
 passwd
 echo "Installing base packages"
-pacman -Syu --noconfirm linux-firmware git neofetch nano grub efibootmgr networkmanager network-manager-applet reflector base-devel linux-headers ipset os-prober ntfs-3g terminus-font openssh bash-completion dnsutils ufw iptables micro
+pacman -Syu --noconfirm linux-firmware git neofetch nano grub efibootmgr networkmanager network-manager-applet reflector base-devel linux-headers ipset os-prober ntfs-3g terminus-font openssh bash-completion dnsutils ufw iptables micro exa
 
 #gpu drivers
 # pacman -S  xf86-video-amdgpu
