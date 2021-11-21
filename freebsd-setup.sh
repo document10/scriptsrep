@@ -18,4 +18,4 @@ sysrc moused_enable=YES
 sysrc snd_driver=YES
 echo 'cuse_load="YES" ' >> /boot/loader.conf
 echo "proc /proc procfs rw 0 0">>/etc/fstab
-echo "doc10 ALL=(ALL) ALL" >> /usr/local/etc/sudoers.d/doc10
+echo "dxvk ALL=(ALL) ALL" >> /usr/local/etc/sudoers.d/dxvk
