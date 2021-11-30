@@ -7,3 +7,4 @@ pacman -S  xf86-video-amdgpu
 pacman -S  nvidia nvidia-utils nvidia-settings
 pacman -S virtualbox-guest-utils
 systemctl enable gdm.service
+systemctl enable bluetooth
