@@ -7,5 +7,6 @@ echo "compton -f &" >> /home/dxvk/.xprofile
 echo "tint2 &" >> /home/dxvk/.xprofile
 echo "pcmanfm -d --desktop &" >> /home/dxvk/.xprofile
 echo "volumeicon &" >> /home/dxvk/.xprofile
+echo "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &" >> /home/doc10/.xprofile
 sysrc compton_enable="YES"
 sysrc webcamd_enable="YES"
