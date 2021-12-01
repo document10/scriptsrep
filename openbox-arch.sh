@@ -15,3 +15,4 @@ echo "compton -f &" >> /home/doc10/.xprofile
 echo "tint2 &" >> /home/doc10/.xprofile
 echo "pcmanfm -d --desktop &" >> /home/doc10/.xprofile
 echo "volumeicon &" >> /home/doc10/.xprofile
+echo "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &" >> /home/doc10/.xprofile
