@@ -48,6 +48,7 @@ echo "Type=XSession" >> /usr/share/xsessions/dwm.desktop
 #change doc10 to your username
 echo "nitrogen --restore &" >> /home/doc10/.xprofile
 echo "picom -f &" >>/home/doc10/.xprofile
+echo "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &" >> /home/doc10/.xprofile
 cat /home/doc10/.xprofile
 systemctl enable lightdm
 systemctl enable bluetooth
