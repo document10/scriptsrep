@@ -18,7 +18,7 @@ pacman -Syu --noconfirm linux-firmware git neofetch grub networkmanager reflecto
 echo "Configuring grub bootloader"
 #uefi
 pacman -S efibootmgr
-grub-install --recheck --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg
 
 #mbr/bios
