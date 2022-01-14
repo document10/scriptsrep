@@ -22,7 +22,8 @@ grub-install --recheck --target=x86_64-efi --efi-directory=/boot/efi --bootloade
 grub-mkconfig -o /boot/grub/grub.cfg
 
 #mbr/bios
-#grub-install --recheck --target=i386-pc /dev/sda # replace sda with your disk name, not the partition
+# replace sda with your disk name, not the partition
+#grub-install --recheck --target=i386-pc /dev/sda 
 #grub-mkconfig -o /boot/grub/grub.cfg
 
 
