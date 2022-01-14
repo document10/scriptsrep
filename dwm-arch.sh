@@ -9,7 +9,6 @@ git clone https://git.suckless.org/sbase/
 git clone https://git.suckless.org/surf
 pacman -Syu
 pacman -S xorg xorg-server xterm firefox nitrogen picom lightdm  lightdm-gtk-greeter lightdm-gtk-greeter-settings archlinux-wallpaper pcmanfm avahi xdg-user-dirs xdg-utils gedit bluez bluez-utils alsa-utils pipewire pipewire-alsa pipewire-pulse pipewire-jack sof-firmware blueman arc-solid-gtk-theme arc-gtk-theme arc-icon-theme polkit-gnome
-#gpu drivers,COMMENT THE ONES YOU DON'T NEED
 cd dwm
 make
 make install
