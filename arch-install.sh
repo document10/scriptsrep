@@ -13,18 +13,15 @@ cat /etc/hosts
 echo "Root password:"
 passwd
 echo "Installing base packages"
-pacman -Syu --noconfirm linux-firmware git neofetch nano grub efibootmgr networkmanager network-manager-applet reflector base-devel linux-headers ipset os-prober ntfs-3g terminus-font openssh bash-completion dnsutils ufw iptables micro exa
-
-#gpu drivers
-# pacman -S  xf86-video-amdgpu
-# pacman -S  nvidia nvidia-utils nvidia-settings
+pacman -Syu --noconfirm linux-firmware git neofetch grub networkmanager reflector base-devel linux-headers ipset os-prober ntfs-3g terminus-font openssh bash-completion dnsutils ufw iptables micro exa ed gd lldb gdb crda ipcalc
 
 echo "Configuring grub bootloader"
 #uefi
+pacman -S efibootmgr
 grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg
 
-#mbr
+#mbr/bios
 #grub-install --target=i386-pc /dev/sda # replace sda with your disk name, not the partition
 #grub-mkconfig -o /boot/grub/grub.cfg
 
