@@ -13,7 +13,7 @@ cat /etc/hosts
 echo "Root password:"
 passwd
 echo "Installing base packages"
-pacman -Syu --noconfirm linux-firmware git neofetch grub networkmanager reflector base-devel linux-headers ipset os-prober ntfs-3g terminus-font openssh bash-completion dnsutils ufw iptables micro exa ed gd lldb gdb crda ipcalc
+pacman -Syu --noconfirm linux-firmware git neofetch grub networkmanager reflector base-devel linux-headers ipset os-prober ntfs-3g terminus-font openssh bash-completion dnsutils ufw iptables micro exa ed gd lldb gdb crda ipcalc strace iwd lsof htop
 
 echo "Configuring grub bootloader"
 #uefi
@@ -29,6 +29,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 echo "Configuring base services"
 systemctl enable --now NetworkManager
+systemctl enable --now iwd
 systemctl enable --now sshd
 systemctl enable --now iptables
 systemctl enable --now ip6tables
